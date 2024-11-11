@@ -72,7 +72,7 @@ option(LOGGING_EN "Enable debug logging" OFF)
 option(PERF_LOGGING_EN "Enable performance logging" OFF)
 option(ENABLE_DD_PYTHON "Enable building the Python library" OFF)
 option(XRT_RUNLIST_EN "Enable xrt experimental runlist feature" OFF)
-option(DISABLE_LARGE_TXN_OPS "Disable large txn binaries in the package" OFF)
+option(DISABLE_LARGE_TXN_OPS "Disable large txn binaries in the package" ON)
 
 if(ENABLE_SIMNOWLITE_BUILD)
   add_definitions(-DSIMNOWLITE_EN)
